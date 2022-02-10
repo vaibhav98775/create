@@ -1,0 +1,20 @@
+$border: 1px solid #00b894;
+
+.table {
+  border: $border;
+  border-collapse: collapse;
+  width: 53%;
+  margin-top: 11px;
+  text-align: center;
+  tr {
+    th {
+      background-color: black;
+      color: white;
+      font-size: 15px;
+    }
+    td {
+      border: $border;
+      background-color: #dfe6e9;
+    }
+  }
+}
